@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Home.css';
 import pizza from '../assets/pizza.jpeg';
 import { Link } from 'react-router-dom';
 
