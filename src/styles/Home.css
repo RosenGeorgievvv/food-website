@@ -22,3 +22,22 @@
     font-weight: 50;
     color: black;
 }
+.container p{
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: black;
+}
+.container button{
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 50px;
+    width: 180px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
