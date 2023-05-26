@@ -3,12 +3,10 @@ import '../styles/Navbar.css'
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
-import { hover } from '@testing-library/user-event/dist/hover';
 
 function Navbar() {
 
     const [visible, setVisible] = useState(false);
-    const [color, setColor] = useState('white');
 
     const toggleNavbar = () => {
         setVisible(!visible);
