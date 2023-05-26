@@ -13,8 +13,6 @@ function Navbar() {
     const toggleNavbar = () => {
         setVisible(!visible);
     }
-    const green = { color: 'green' }
-    const white = { color: 'white' }
 
     return (
         <div className='navbar'>
@@ -26,7 +24,8 @@ function Navbar() {
                     <Link to='/about'>About</Link>
                     <Link to='/contact'>Contact</Link>
                 </div>
-            </div><div className='rightSide' onMouseOver={() => setColor(green)}>
+            </div>
+            <div className='rightSide'>
                 <Link to='/' >Home</Link>
                 <Link to='/menu'>Menu</Link>
                 <Link to='/about'>About</Link>
