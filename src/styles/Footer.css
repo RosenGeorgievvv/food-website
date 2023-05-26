@@ -14,3 +14,16 @@
     font-size: 30px;
     cursor: pointer;
 }
+.socialMedia svg:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.instagram:hover{
+    color:#b51515
+}
+.facebook:hover{
+    color:rgb(18, 53, 225);
+}
+.footer p{
+    color: white;
+}
