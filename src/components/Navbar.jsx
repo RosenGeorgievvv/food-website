@@ -8,10 +8,13 @@ import { hover } from '@testing-library/user-event/dist/hover';
 function Navbar() {
 
     const [visible, setVisible] = useState(false);
+    const [color, setColor] = useState('white');
 
     const toggleNavbar = () => {
         setVisible(!visible);
     }
+    const green = { color: 'green' }
+    const white = { color: 'white' }
 
     return (
         <div className='navbar'>
@@ -23,7 +26,7 @@ function Navbar() {
                     <Link to='/about'>About</Link>
                     <Link to='/contact'>Contact</Link>
                 </div>
-            </div><div className='rightSide'>
+            </div><div className='rightSide' onMouseOver={() => setColor(green)}>
                 <Link to='/' >Home</Link>
                 <Link to='/menu'>Menu</Link>
                 <Link to='/about'>About</Link>
