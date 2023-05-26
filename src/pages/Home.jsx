@@ -9,7 +9,7 @@ function Home() {
     <div className='home'>
       <div className='container' style={{backgroundImage: `url(${pizza})` }}>
         <h1>Food & Taste Pizzeria</h1>
-        <p>PIZZA O FIT ANY TASTE</p>
+        <p>PIZZA TO FIT ANY TASTE</p>
         <Link to='/menu'>
           <button> ORDER NOW </button>
         </Link>
