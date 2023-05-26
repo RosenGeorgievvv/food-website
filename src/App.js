@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Footer from './components/Footer';
 import Menu from './pages/Menu';
 
-
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,6 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-
     </div>
   );
 }
