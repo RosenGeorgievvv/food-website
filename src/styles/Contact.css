@@ -2,12 +2,20 @@
     width: 100%;
     height: 90vh;
     display: flex;
-  }
-  
-  .contact .leftSide {
+}
+
+.contact .leftSide {
     height: 100%;
     flex: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+.contact .rightSide {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
