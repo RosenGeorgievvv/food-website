@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/About.css'
 import MultiplePizzas from '../assets/multiplePizzas.jpeg'
 
 function About() {
