@@ -48,3 +48,9 @@
     border-bottom: 1px solid #121619;
     color: black;
   }
+  input::placeholder,
+textarea::placeholder {
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
