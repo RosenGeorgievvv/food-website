@@ -40,3 +40,11 @@
     border-bottom: 1px solid #121619;
     color: black;
   }
+  form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
