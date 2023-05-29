@@ -11,7 +11,7 @@ function Footer() {
                 <InstagramIcon className='instagram' />
                 <FacebookIcon className='facebook' />
             </div>
-            <p><b>&copy; 2023 <Link to="#" style={{textDecoration: 'none', color: 'white'}} >food&taste.com</Link></b></p>
+            <p><b>&copy; 2023 <Link to="#" style={{textDecoration: 'none', color: 'white'}}>food&taste.com</Link></b></p>
         </div>
     )
 }
